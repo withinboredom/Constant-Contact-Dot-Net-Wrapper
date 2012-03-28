@@ -1,0 +1,6 @@
+﻿.grd{BACKGROUND-COLOR:White;COLOR:Black; BORDER-COLLAPSE:collapse; border:1px solid white;}
+.grdrow{BACKGROUND-COLOR:Transparent;HEIGHT:18px;BACKGROUND-COLOR:#e7e7e7;}
+.grdhdr{HEIGHT:20px;FONT-FAMILY:Arial;FONT-SIZE:12px;FONT-WEIGHT:bold;COLOR:Black;BACKGROUND-COLOR:#aecf74;VERTICAL-ALIGN:middle;}
+.grdaltrow{BACKGROUND-COLOR:#f5f5f5;HEIGHT:18px;}
+.grdPager { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; background-color:#5D7A32; color:#fff; padding:12px; text-align:right}
+.grdfooter{BACKGROUND-COLOR:#d9e5ba;FONT-WEIGHT:bold;HEIGHT:20px;FONT-SIZE:12px;}

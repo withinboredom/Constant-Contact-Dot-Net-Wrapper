@@ -1,0 +1,11 @@
+C:\Users\dberard\Desktop\Wrapper\output\Release\ConstantContactBO.dll
+C:\Users\dberard\Desktop\Wrapper\output\Release\ConstantContactBO.pdb
+C:\Users\dberard\Desktop\Wrapper\Development\ConstantContactBO\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dberard\Desktop\Wrapper\Development\ConstantContactBO\obj\Release\ConstantContactBO.dll
+C:\Users\dberard\Desktop\Wrapper\Development\ConstantContactBO\obj\Release\ConstantContactBO.pdb
+C:\Users\dberard\Desktop\Wrapper\output\Release\ConstantContactBO.XML
+C:\Users\dberard\Desktop\WrapperV0.1\output\Release\ConstantContactBO.dll
+C:\Users\dberard\Desktop\WrapperV0.1\output\Release\ConstantContactBO.pdb
+C:\Users\dberard\Desktop\WrapperV0.1\Development\ConstantContactBO\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dberard\Desktop\WrapperV0.1\Development\ConstantContactBO\obj\Release\ConstantContactBO.dll
+C:\Users\dberard\Desktop\WrapperV0.1\Development\ConstantContactBO\obj\Release\ConstantContactBO.pdb

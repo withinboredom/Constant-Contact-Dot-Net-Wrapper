@@ -1,0 +1,7 @@
+﻿<ASP:GRIDVIEW runat="server" skinid="custgrid" autogeneratecolumns="False" cssclass="grd" width="100%">
+	<ROWSTYLE cssclass="grdrow" />
+	<HEADERSTYLE cssclass="grdhdr"/>
+	<ALTERNATINGROWSTYLE cssclass="grdaltrow" />
+	<PAGERSTYLE cssclass="grdPager"/>
+	<FOOTERSTYLE cssclass="grdfooter" />
+</ASP:GRIDVIEW>

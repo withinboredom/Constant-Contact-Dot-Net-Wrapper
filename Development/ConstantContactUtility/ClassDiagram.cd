@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ConstantContactUtility.AuthenticationData">
+    <Position X="6.75" Y="3.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAQAAgFAgAQAAAAAAwRAkACQAgHAACACgQIAAQUA4IA=</HashCode>
+      <FileName>AuthenticationData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactUtility.Components.ContactComponent">
+    <Position X="0.5" Y="5.75" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IVgVsAQIAjkEaAZQGAAEAoVEALBBgGJSxIeggiA0Apg=</HashCode>
+      <FileName>Components\ContactComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactUtility.Components.ContactListComponent">
+    <Position X="4.5" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AUAAgAAACTAAAAASAYAAAAAAQkCIQAAAAAEAEIAAgAA=</HashCode>
+      <FileName>Components\ContactListComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactUtility.Utility">
+    <Position X="4.25" Y="7.5" Width="4.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAMwAAECCCEAAAUAAkAAAFQMAgAAIAEKAQIAAAiwAAA=</HashCode>
+      <FileName>Utility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactUtility.ConstantAuthenticationException">
+    <Position X="0.5" Y="3.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAQAAAAAgAAAAAAACAAIAAAAAAAA=</HashCode>
+      <FileName>Utility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Exception" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConstantContactUtility.ConstantException">
+    <Position X="4" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactUtility.Components.EmailCampaignComponent">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>WEhAgDAkAhJgEwkSAAAG4GAAGAAAAAgCEFWRIACAANM=</HashCode>
+      <FileName>Components\EmailCampaignComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactUtility.Components.EmailComponent">
+    <Position X="7.75" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAIQACAAAAgAQA0ARQAHABAABQAAAAAEgAAFAAAA=</HashCode>
+      <FileName>Components\EmailComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

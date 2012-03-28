@@ -1,0 +1,18 @@
+C:\Users\dberard\Desktop\Wrapper\Debug Form\bin\Release\Debug Form.exe.config
+C:\Users\dberard\Desktop\Wrapper\Debug Form\bin\Release\Debug Form.exe
+C:\Users\dberard\Desktop\Wrapper\Debug Form\bin\Release\Debug Form.pdb
+C:\Users\dberard\Desktop\Wrapper\Debug Form\bin\Release\ConstantContactBO.dll
+C:\Users\dberard\Desktop\Wrapper\Debug Form\bin\Release\ConstantContactUtility.dll
+C:\Users\dberard\Desktop\Wrapper\Debug Form\bin\Release\ConstantContactBO.pdb
+C:\Users\dberard\Desktop\Wrapper\Debug Form\bin\Release\ConstantContactBO.xml
+C:\Users\dberard\Desktop\Wrapper\Debug Form\bin\Release\ConstantContactUtility.pdb
+C:\Users\dberard\Desktop\Wrapper\Debug Form\bin\Release\ConstantContactUtility.xml
+C:\Users\dberard\Desktop\Wrapper\Debug Form\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\dberard\Desktop\Wrapper\Debug Form\obj\x86\Release\Debug_Form.Form1.resources
+C:\Users\dberard\Desktop\Wrapper\Debug Form\obj\x86\Release\Debug_Form.Properties.Resources.resources
+C:\Users\dberard\Desktop\Wrapper\Debug Form\obj\x86\Release\Debug Form.csproj.GenerateResource.Cache
+C:\Users\dberard\Desktop\Wrapper\Debug Form\obj\x86\Release\Debug Form.exe
+C:\Users\dberard\Desktop\Wrapper\Debug Form\obj\x86\Release\Debug Form.pdb
+C:\Users\dberard\Desktop\WrapperV0.1\Debug Form\bin\Release\Debug Form.exe.config
+C:\Users\dberard\Desktop\WrapperV0.1\Debug Form\obj\x86\Release\Debug Form.exe
+C:\Users\dberard\Desktop\WrapperV0.1\Debug Form\obj\x86\Release\Debug Form.pdb

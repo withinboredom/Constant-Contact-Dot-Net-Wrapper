@@ -1,0 +1,34 @@
+<Configuration>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="CF60DE9C-8A28-4696-A55D-92379922582D/d:EmailCampaignPages/f:AddEmailCampaign.aspx.cs" caret="8416" scrollPosition="0|0" />
+      <File id="CF60DE9C-8A28-4696-A55D-92379922582D/d:EmailCampaignPages/f:AddEmailCampaign.aspx" caret="0" scrollPosition="0|0" />
+      <File id="CF60DE9C-8A28-4696-A55D-92379922582D/d:EmailCampaignPages/f:AddCampaignConfirmation.aspx" caret="600" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="CF60DE9C-8A28-4696-A55D-92379922582D/d:EmailCampaignPages/f:AddCampaignConfirmation.aspx" caret="600" scrollPosition="0|0" />
+      <File id="CF60DE9C-8A28-4696-A55D-92379922582D/d:EmailCampaignPages/f:AddEmailCampaign.aspx.cs" caret="9058" scrollPosition="0|87" />
+      <File id="CF60DE9C-8A28-4696-A55D-92379922582D/d:EmailCampaignPages/f:AddEmailCampaign.aspx.cs" caret="8644" scrollPosition="0|87" />
+    </RecentEdits>
+  </RecentFiles>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+      <setting name="UseSolutionBuilder">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager />
+</Configuration>

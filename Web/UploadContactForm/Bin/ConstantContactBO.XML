@@ -1,0 +1,1195 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConstantContactBO</name>
+    </assembly>
+    <members>
+        <member name="T:ConstantContactBO.Entities.Country">
+            <summary>
+            Country Entity
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.Country.Name">
+            <summary>
+            Name of the Country
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.Country.Code">
+            <summary>
+            Code of the Country
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.Entities.State">
+            <summary>
+            State Entity
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.State.Name">
+            <summary>
+            Name of the State
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.State.Code">
+            <summary>
+            Code of the State
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.CampaignState">
+            <summary>
+            Email Campaign Status
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.CampaignState.Draft">
+            <summary>
+            Draft State
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.CampaignState.Running">
+            <summary>
+            Running State
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.CampaignState.Scheduled">
+            <summary>
+            Scheduled State
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.CampaignState.ArchivePending">
+            <summary>
+            ArchivePending State
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.CampaignState.Archived">
+            <summary>
+            Archived State
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.CampaignState.ClosePending">
+            <summary>
+            ClosePending State
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.CampaignState.Closed">
+            <summary>
+            Closed State
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.CampaignState.Sent">
+            <summary>
+            Sent State
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.CampaignType">
+            <summary>
+            Email Campaign Type
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.CampaignType.STOCK">
+            <summary>
+            STOCK type
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.CampaignType.CUSTOM">
+            <summary>
+            CUSTOM type
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.ContactList">
+            <summary>
+            Contains information's about a Constant Contact List
+            
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactList._name">
+            <summary>
+            The list name
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactList._shortName">
+            <summary>
+            System-calculated display name for the list for use where space is limited
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactList._optInDefault">
+            <summary>
+            If true, Contacts who sign-up or change their settings may add themselves to this list
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactList._sortOrder">
+            <summary>
+            Relative position of this Contact List in the full set of Contact Lists. 
+            <remarks>
+            This parameter is used when a group of Contact Lists are presented in a UI such as the Site Visitor SignUp. 
+            The values are arbitrary relative values. A List with SortOrder=25 will be shown after a List with Sort Order 15.
+            </remarks>
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactList._id">
+            <summary>
+            Id of Contact List
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactList._link">
+            <summary>
+            Edit link of Contact List
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactList._systemList">
+            <summary>
+            Specified the type of Constant Contact system predefined list
+            </summary>
+        </member>
+        <member name="M:ConstantContactBO.ContactList.#ctor">
+            <summary>
+            Constructor with no parameters
+            </summary>
+        </member>
+        <member name="M:ConstantContactBO.ContactList.#ctor(System.String,System.Boolean)">
+            <summary>
+            Constructor with list name and optInDefault
+            </summary>
+            <param name="name">Name of Contact List</param>
+            <param name="optInDefault">OptInDefault value of Contact List</param>
+        </member>
+        <member name="M:ConstantContactBO.ContactList.#ctor(System.String)">
+            <summary>
+            Constructor with list id
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="P:ConstantContactBO.ContactList.Name">
+            <summary>
+            Gets or sets the list name
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.ContactList.ShortName">
+            <summary>
+            Gets the system-calculated display name for the list for use where space is limited
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.ContactList.OptInDefault">
+            <summary>
+            If true, Contacts who sign-up or change their settings may add themselves to this list
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.ContactList.SortOrder">
+            <summary>
+            Gets or sets the relative position of this Contact List in the full set of Contact Lists. 
+            <remarks>
+            This parameter is used when a group of Contact Lists are presented in a UI such as the Site Visitor SignUp. 
+            The values are arbitrary relative values. A List with SortOrder=25 will be shown after a List with Sort Order 15.
+            </remarks>
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.ContactList.Id">
+            <summary>
+            Gets or set the Id of Contact List
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.ContactList.Link">
+            <summary>
+            Gets or sets the Edit link of Contact List
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.ContactList.IsSystemList">
+            <summary>
+            True if Contact List is an Constant system predefined list, false otherwise
+            </summary>        
+        </member>
+        <member name="P:ConstantContactBO.ContactList.SystemList">
+            <summary>
+            Specified the type of Constant Contact system predefined list
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.ContactSystemList">
+            <summary>
+            Describes what kind of system predefined list is a Contact List
+            
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactSystemList.Undefined">
+            <summary>
+            Contact List is not a system predefined List
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactSystemList.Active">
+            <summary>
+            Contact List is the Active system predefined List
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactSystemList.Removed">
+            <summary>
+            Contact List is the Removed system predefined List
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactSystemList.DoNotMail">
+            <summary>
+            Contact List is the DoNotMail system predefined List
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.Contact">
+            <summary>
+            Contains information's about a Constant Contact
+            
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._id">
+            <summary>
+            Id of current Contact
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._link">
+            <summary>
+            Edit link of current Contact
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._status">
+            <summary>
+            Describes the current status of the Contact
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._emailAddress">
+            <summary>
+            Email Address of Contact
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._emailType">
+            <summary>
+            The preferred type of email
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._name">
+            <summary>
+            Concatenation of First Name and Last Name
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._firstName">
+            <summary>
+            First name
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._middleName">
+            <summary>
+            Middle name
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._lastName">
+            <summary>
+            Last name
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._jobTitle">
+            <summary>
+            Job title
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._companyName">
+            <summary>
+            Company name
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._workPhone">
+            <summary>
+            Work phone
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._homePhone">
+            <summary>
+            Home phone
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._addressLine1">
+            <summary>
+            Address line 1
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._addressLine2">
+            <summary>
+            Address line 2
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._addressLine3">
+            <summary>
+            Address line 3
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._city">
+            <summary>
+            City
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._stateCode">
+            <summary>
+            State code. Must be a valid US/Canada
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._stateName">
+            <summary>
+            State name
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._countryCode">
+            <summary>
+            Country code
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._countryName">
+            <summary>
+            Country name
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._postalCode">
+            <summary>
+            Postal code
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._subPostalCode">
+            <summary>
+            Sub postal code
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._note">
+            <summary>
+            Customer notes field. This field should only be visible to the Customer 
+            but not to the Contact
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField1">
+            <summary>
+            Custom field 1
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField2">
+            <summary>
+            Custom field 2
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField3">
+            <summary>
+            Custom field 3
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField4">
+            <summary>
+            Custom field 4
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField5">
+            <summary>
+            Custom field 5
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField6">
+            <summary>
+            Custom field 6
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField7">
+            <summary>
+            Custom field 7
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField8">
+            <summary>
+            Custom field 8
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField9">
+            <summary>
+            Custom field 9
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField10">
+            <summary>
+            Custom field 10
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField11">
+            <summary>
+            Custom field 11
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField12">
+            <summary>
+            Custom field 12
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField13">
+            <summary>
+            Custom field 13
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField14">
+            <summary>
+            Custom field 14
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._customField15">
+            <summary>
+            Custom field 15
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._contactLists">
+            <summary>
+            Indicates which lists the Contact belongs to
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._optInTime">
+            <summary>
+            The times the Contact opted-in
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._optInSource">
+            <summary>
+            The source of the opt-in
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._optOutTime">
+            <summary>
+            The time the Contact opted-out
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._optOutSource">
+            <summary>
+            Source of the opt-out
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._optOutReason">
+            <summary>
+            The reason the Contact opted-out, if provided
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._confirmed">
+            <summary>
+            The confirmed state of Contact
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._insertTime">
+            <summary>
+            The insert time
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Contact._lastUpdateTime">
+            <summary>
+            The last update time
+            </summary>
+        </member>
+        <member name="M:ConstantContactBO.Contact.#ctor">
+            <summary>
+            Constructor with no parameters
+            </summary>
+        </member>
+        <member name="M:ConstantContactBO.Contact.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Constructor with e-mail address, first name and last name
+            </summary>
+            <param name="emailAddress">Email Address of Contact</param>
+            <param name="firstName">Contact First Name</param>
+            <param name="lastName">Contact Last Name</param>
+        </member>
+        <member name="P:ConstantContactBO.Contact.Id">
+            <summary>
+            Gets the Id of current Contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.Link">
+            <summary>
+            Edit link of current Contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.Status">
+            <summary>
+            Gets the current status of the Contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.EmailAddress">
+            <summary>
+            Gets or sets the e-mail address of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.EmailType">
+            <summary>
+            Gets or sets the preferred type of email
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.Name">
+            <summary>
+            Gets the concatenation of First Name and Last Name
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.FirstName">
+            <summary>
+            Gets or sets the first name of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.MiddleName">
+            <summary>
+            Gets or sets the middle name of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.LastName">
+            <summary>
+            Gets or sets the last name of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.JobTitle">
+            <summary>
+            Gets or sets the job title of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CompanyName">
+            <summary>
+            Gets or sets the company name of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.WorkPhone">
+            <summary>
+            Gets or sets the work phone of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.HomePhone">
+            <summary>
+            Gets or sets the home phone of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.AddressLine1">
+            <summary>
+            Gets or sets the address line 1 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.AddressLine2">
+            <summary>
+            Gets or sets the address line 2 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.AddressLine3">
+            <summary>
+            Gets or sets the address line 3 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.City">
+            <summary>
+            Gets or sets the city of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.StateCode">
+            <summary>
+            Gets or sets the state of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.StateName">
+            <summary>
+            Gets or sets the StateName
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CountryCode">
+            <summary>
+            Gets or sets the country of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CountryName">
+            <summary>
+            Gets or sets the CountryName
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.PostalCode">
+            <summary>
+            Gets or sets the postal code of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.SubPostalCode">
+            <summary>
+            Gets or sets the sub postal code of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.Note">
+            <summary>
+            Gets or sets the customer notes field
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField1">
+            <summary>
+            Gets or sets the custom field 1 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField2">
+            <summary>
+            Gets or sets the custom field 2 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField3">
+            <summary>
+            Gets or sets the custom field 3 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField4">
+            <summary>
+            Gets or sets the custom field 4 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField5">
+            <summary>
+            Gets or sets the custom field 5 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField6">
+            <summary>
+            Gets or sets the custom field 6 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField7">
+            <summary>
+            Gets or sets the custom field 7 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField8">
+            <summary>
+            Gets or sets the custom field 8 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField9">
+            <summary>
+            Gets or sets the custom field 9 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField10">
+            <summary>
+            Gets or sets the custom field 10 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField11">
+            <summary>
+            Gets or sets the custom field 11 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField12">
+            <summary>
+            Gets or sets the custom field 12 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField13">
+            <summary>
+            Gets or sets the custom field 13 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField14">
+            <summary>
+            Gets or sets the custom field 14 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.CustomField15">
+            <summary>
+            Gets or sets the custom field 15 of the contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.ContactLists">
+            <summary>
+            Get the lists the Contact belongs to
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.OptInTime">
+            <summary>
+            Gets the time the Contact opted-in
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.OptInSource">
+            <summary>
+            Gets or sets the source of the opt-in
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.OptOutTime">
+            <summary>
+            Gets the time Contact opted-out
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.OptOutSource">
+            <summary>
+            Gets or sets the source of the opt-out
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.OptOutReason">
+            <summary>
+            Gets the reason the Contact opted-out
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.Confirmed">
+            <summary>
+            Gets the confirmed state of Contact
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.InsertTime">
+            <summary>
+            Gets the Contact insert time
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Contact.LastUpdateTime">
+            <summary>
+            Gets the Contact last update time
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.ContactOptInList">
+            <summary>
+            Links a Contact to a Constant Contact List
+            
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactOptInList._contactList">
+            <summary>
+            Contact List the Contact opted-in
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactOptInList._optInTime">
+            <summary>
+            The time the Contact opted-in to this list
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactOptInList._optInSource">
+            <summary>
+            The source of the opt-in to this list
+            </summary>
+        </member>
+        <member name="M:ConstantContactBO.ContactOptInList.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.ContactOptInList.ContactList">
+            <summary>
+            Gets or sets the Contact List Contact opted-in
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.ContactOptInList.OptInTime">
+            <summary>
+            Gets the time the Contact opted-in to this list 
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.ContactOptInList.OptInSource">
+            <summary>
+            Gets or sets the source of the opt-in to this list
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.ContactEmailType">
+            <summary>
+            Contact preferred type of email
+            
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactEmailType.Undefined">
+            <summary>
+            Preferred email type of Contact is undefined
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactEmailType.Html">
+            <summary>
+            Preffered email type of Contact is HTML
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactEmailType.Text">
+            <summary>
+            Preferred email type of Contact is TEXT
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.ContactStatus">
+            <summary>
+            Describes the status of the Contact
+            
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactStatus.Undefined">
+            <summary>
+            Constat status is undefined
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactStatus.Active">
+            <summary>
+            Contact status is Active
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactStatus.Unconfirmed">
+            <summary>
+            Contact status is Unconfirmed
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactStatus.Removed">
+            <summary>
+            Contact status is Removed
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactStatus.DoNotMail">
+            <summary>
+            Contact status is DoNotMail
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.ContactOptSource">
+            <summary>
+            Type of the Contact opt-in / opt-out source
+            
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactOptSource.Undefined">
+            <summary>
+            The opt-in / opt-out source is undefined
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactOptSource.ActionByCustomer">
+            <summary>
+            The opt-in / opt-out source is ACTION_BY_CUSTOMER
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.ContactOptSource.ActionByContact">
+            <summary>
+            The opt-in / opt-out source is ACTION_BY_CONTACT
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.Entities.Email">
+            <summary>
+            Contains information about Email
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.Email._link">
+            <summary>
+            Email Link
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.Email._id">
+            <summary>
+            Email Link
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.Email._title">
+            <summary>
+            Email Title
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.Email._updated">
+            <summary>
+            Email Updated Date
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.Email._authorName">
+            <summary>
+            Email Author Name
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.Email._emailAddress">
+            <summary>
+            Email Address
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.Email._status">
+            <summary>
+            Describes the current status of the Email
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.Email._verifiedTime">
+            <summary>
+            Email VerifiedTime
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.Email.Link">
+            <summary>
+            Gets or sets Email Link
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.Email.Id">
+            <summary>
+            Gets or sets Email Id
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.Email.Title">
+            <summary>
+            Gets or sets Email Title
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.Email.Updated">
+            <summary>
+            Gets or sets Email Title
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.Email.AuthorName">
+            <summary>
+            Gets or sets Email Author Name
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.Email.EmailAddress">
+            <summary>
+            Gets or sets Email Address
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.Email.Status">
+            <summary>
+            Gets the current status of the Email
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.Email.VerifiedTime">
+            <summary>
+            Gets or sets Email VerifiedTime
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.Entities.EmailStatus">
+            <summary>
+            Describes the status of the Email
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.EmailStatus.Undefined">
+            <summary>
+            Email status is undefined
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.EmailStatus.Verified">
+            <summary>
+            Email status is Verified
+            </summary>
+        </member>
+        <member name="F:ConstantContactBO.Entities.EmailStatus.Pending">
+            <summary>
+            Email status is Pending
+            </summary>
+        </member>
+        <member name="T:ConstantContactBO.Entities.EmailCampaign">
+            <summary>
+            Email Campaign Entity
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.Name">
+            <summary>
+            Name for the Campaign
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.ID">
+            <summary>
+            ID for the Campaign
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.Date">
+            <summary>
+            Campaign Date
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.LastEditDate">
+            <summary>
+            Last date/time the Campaign was edited
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.LastRunDate">
+            <summary>
+            Last date/time the Campaign ran
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.NextRunDate">
+            <summary>
+            The next date/time the Campaign will run
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.State">
+            <summary>
+            Status of the Campaign
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.Sent">
+            <summary>
+            Number of emails sent for the campaign
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.Opens">
+            <summary>
+            Number of unique opens
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.Clicks">
+            <summary>
+            Number of unique clicks
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.Bounces">
+            <summary>
+            Number of bounced emails
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.Forwards">
+            <summary>
+            Number of times the campaign was forwarded (using the Forward link if included)
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.OptOuts">
+            <summary>
+            Number of opt outs from the campaign
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.SpamReports">
+            <summary>
+            Number of spam reports from the campaign
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.CampaignType">
+            <summary>
+            CampaignType of the campaign
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.Subject">
+            <summary>
+            Subject line for the email
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.FromName">
+            <summary>
+            The name that is displayed in the from box in the recipients email client
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.FromEmail">
+            <summary>
+            Email address entry represents From address shows the address that the email originated from
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.FromEmailID">
+            <summary>
+            ID Email address entry represents From address shows the address that the email originated from
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.ReplyToEmail">
+            <summary>
+            Email address entry represents the field used by an email client's reply function
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.ReplyToEmailID">
+            <summary>
+            ID Email address entry represents the field used by an email client's reply function
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.ViewAsWebpage">
+            <summary>
+            This allows contacts who cannot view images in their email program to open your email in a browser window.
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.ViewAsWebpageLinkText">
+            <summary>
+            The text for the actual link in the View As Webpage link in the email
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.ViewAsWebpageText">
+            <summary>
+            The text displayed together with the LinkText at the top of your email
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.PermissionReminder">
+            <summary>
+            Whether to show a permission reminder at the top of the email allowing recipients to confirm their opt in.
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.PermissionReminderText">
+            <summary>
+            Permission reminder.
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.GreetingSalutation">
+            <summary>
+            Describes the chosen salutation to be used at the opening of the email (e.g. Dear)
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.GreetingName">
+            <summary>
+            Indicates if the email greeting should include just the recipients FirstName, just the LastName, Both, or neither (None)
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.GreetingString">
+            <summary>
+            Allows you to specify the full greeting string instead of the components of the previous two properties.
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.OrganizationName">
+            <summary>
+            Name of organization for use in the email footer
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.OrganizationAddress1">
+            <summary>
+            Line 1 of the organization address for use in the email footer
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.OrganizationAddress2">
+            <summary>
+            Line 2 of the organization address for use in the email footer
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.OrganizationAddress3">
+            <summary>
+            Line 3 of the organization address for use in the email footer
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.OrganizationCity">
+            <summary>
+            City of the organization for use in the email footer
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.OrganizationState">
+            <summary>
+            State of the organization for use in the email footer
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.OrganizationInternationalState">
+            <summary>
+            International "State" if outside the US for use in the email footer
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.OrganizationPostalCode">
+            <summary>
+            PostalCode/Zipcode of the organization for use in the email footer
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.OrganizationCountry">
+            <summary>
+            Country of the organization for use in the email footer
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.IncludeForwardEmail">
+            <summary>
+            Boolean type property that indicates if the email should include a Forward This Email link
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.ForwardEmailLinkText">
+            <summary>
+            If IncludeForwardEmail property is set to YES, then this property should be specified and will appear in the email as the text of the link
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.IncludeSubscribeLink">
+            <summary>
+            Boolean type property that indicates if the email should include a Subscribe link
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.SubscribeLinkText">
+            <summary>
+            If IncludeSubscribeLink property is set to YES, then this property should be specified and will appear in the email as the text of the link
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.Content">
+            <summary>
+            The full HTML content of the email
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.XContent">
+            <summary>
+            The full XHTML content of the email
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.TextContent">
+            <summary>
+            The text version of the email content. Will be used for email clients that do not have HTML email capability or have it disabled.
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.URLS">
+            <summary>
+            Collection of URL entries that were included in this email for click tracking purposes
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.ContactLists">
+            <summary>
+            Collection of ContactList entries that are associated with this email Campaign
+            </summary>
+        </member>
+        <member name="P:ConstantContactBO.Entities.EmailCampaign.EmailContentFormat">
+            <summary>
+            Describes whether email content is based on HTML or XHTML.
+            </summary>
+        </member>
+    </members>
+</doc>

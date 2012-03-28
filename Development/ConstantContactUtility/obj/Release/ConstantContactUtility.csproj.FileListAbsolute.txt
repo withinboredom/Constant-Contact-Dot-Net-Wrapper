@@ -1,0 +1,12 @@
+C:\Users\dberard\Desktop\Wrapper\output\Release\ConstantContactUtility.dll
+C:\Users\dberard\Desktop\Wrapper\output\Release\ConstantContactUtility.pdb
+C:\Users\dberard\Desktop\Wrapper\Development\ConstantContactUtility\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dberard\Desktop\Wrapper\Development\ConstantContactUtility\obj\Release\ConstantContactUtility.dll
+C:\Users\dberard\Desktop\Wrapper\Development\ConstantContactUtility\obj\Release\ConstantContactUtility.pdb
+C:\Users\dberard\Desktop\Wrapper\output\Release\ConstantContactUtility.XML
+C:\Users\dberard\Desktop\WrapperV0.1\output\Release\ConstantContactUtility.XML
+C:\Users\dberard\Desktop\WrapperV0.1\output\Release\ConstantContactUtility.dll
+C:\Users\dberard\Desktop\WrapperV0.1\output\Release\ConstantContactUtility.pdb
+C:\Users\dberard\Desktop\WrapperV0.1\Development\ConstantContactUtility\obj\Release\ResolveAssemblyReference.cache
+C:\Users\dberard\Desktop\WrapperV0.1\Development\ConstantContactUtility\obj\Release\ConstantContactUtility.dll
+C:\Users\dberard\Desktop\WrapperV0.1\Development\ConstantContactUtility\obj\Release\ConstantContactUtility.pdb

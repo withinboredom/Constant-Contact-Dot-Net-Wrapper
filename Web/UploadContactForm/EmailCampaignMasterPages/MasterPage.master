@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Master" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    <title>Constant Contact - Email Campaign</title>
+</head>
+
+<body>
+    <form id="form" runat="server">
+        <div>
+            <asp:Image ID="cclogo" runat="server" ImageUrl="~/App_Themes/DefaultTheme/ConstantContactLogo.jpg" />
+            <br />
+            <br />
+			<asp:HyperLink Font-Names="Calibri" ID="HyperLink1" runat="server" Font-Underline="True" NavigateUrl="~/EmailCampaignPages/AddEmailCampaign.aspx">Add new Email Campaign</asp:HyperLink>
+            |
+            <asp:HyperLink Font-Names="Calibri" ID="HyperLink2" runat="server" Font-Underline="True" NavigateUrl="~/EmailCampaignPages/ListEmailCampaigns.aspx">List all Email Campaigns</asp:HyperLink>
+            <br />
+            <hr />
+            <asp:ContentPlaceHolder ID="MasterContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+        </div>
+    </form>
+</body>
+</html>

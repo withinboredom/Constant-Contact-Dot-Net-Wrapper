@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ConstantContactBO.Contact">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>KHVSZGD9IwYFAgBKLAHQAAaBHH9OIQIQAAFw4sEaAEg=</HashCode>
+      <FileName>Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactBO.ContactOptInList">
+    <Position X="6" Y="3.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAQAAAAAAAAAAAAAAAAAAQIAAAAQAEAAAAA=</HashCode>
+      <FileName>Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactBO.ContactList">
+    <Position X="6" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACZAAAAAAAAAAEBARAAIQDAAAAAIAAAAAAQAEAAAA=</HashCode>
+      <FileName>ContactList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactBO.Entities.Country">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Entities\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactBO.Entities.State">
+    <Position X="6" Y="7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Entities\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactBO.Entities.Email">
+    <Position X="6" Y="8.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CEACEAAEAIAAAEAADBBAAAAAAEAAAAAAQAAAwgAAAAA=</HashCode>
+      <FileName>Entities\Email.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstantContactBO.Entities.EmailCampaign">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>GgUGIpAMAsFliiABBIJKTmUFCiEuxbCJJgA4BIQEGgg=</HashCode>
+      <FileName>Entities\EmailCampaign.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ConstantContactBO.ContactEmailType">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAACAAAACA=</HashCode>
+      <FileName>Contact.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConstantContactBO.ContactStatus">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAEAAAAAAAAAAAAAEAAAgAAAAAAAAACA=</HashCode>
+      <FileName>Contact.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConstantContactBO.ContactOptSource">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Contact.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConstantContactBO.ContactSystemList">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAgAAAAAAAAACA=</HashCode>
+      <FileName>ContactList.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConstantContactBO.CampaignState">
+    <Position X="8.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAEAAAABAQAAIAEAAAAAIAAAAAACAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConstantContactBO.CampaignType">
+    <Position X="8.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConstantContactBO.Entities.EmailStatus">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAACACA=</HashCode>
+      <FileName>Entities\Email.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

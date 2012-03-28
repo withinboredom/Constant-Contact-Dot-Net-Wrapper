@@ -1,0 +1,17 @@
+d:\ec_sample\ASP Upload Forms EC\output\Debug\ConstantContactBO.XML
+d:\ec_sample\ASP Upload Forms EC\output\Debug\ConstantContactBO.dll
+d:\ec_sample\ASP Upload Forms EC\output\Debug\ConstantContactBO.pdb
+d:\ec_sample\ASP Upload Forms EC\Development\ConstantContactBO\obj\Debug\ResolveAssemblyReference.cache
+d:\ec_sample\ASP Upload Forms EC\Development\ConstantContactBO\obj\Debug\ConstantContactBO.dll
+d:\ec_sample\ASP Upload Forms EC\Development\ConstantContactBO\obj\Debug\ConstantContactBO.pdb
+C:\Documents and Settings\atran\Desktop\finalwrapper\Wrapper\output\Debug\ConstantContactBO.XML
+C:\Documents and Settings\atran\Desktop\finalwrapper\Wrapper\output\Debug\ConstantContactBO.dll
+C:\Documents and Settings\atran\Desktop\finalwrapper\Wrapper\output\Debug\ConstantContactBO.pdb
+C:\Documents and Settings\atran\Desktop\finalwrapper\Wrapper\Development\ConstantContactBO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\atran\Desktop\finalwrapper\Wrapper\Development\ConstantContactBO\obj\Debug\ConstantContactBO.dll
+C:\Documents and Settings\atran\Desktop\finalwrapper\Wrapper\Development\ConstantContactBO\obj\Debug\ConstantContactBO.pdb
+C:\Users\dberard\Desktop\Wrapper\output\Debug\ConstantContactBO.dll
+C:\Users\dberard\Desktop\Wrapper\output\Debug\ConstantContactBO.pdb
+C:\Users\dberard\Desktop\Wrapper\Development\ConstantContactBO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dberard\Desktop\Wrapper\Development\ConstantContactBO\obj\Debug\ConstantContactBO.dll
+C:\Users\dberard\Desktop\Wrapper\Development\ConstantContactBO\obj\Debug\ConstantContactBO.pdb
